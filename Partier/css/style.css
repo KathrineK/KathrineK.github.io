@@ -1,0 +1,164 @@
+body {
+  background-color: rgb(255, 255, 255);
+  background-image: url(../Images/sky.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1024px;
+}
+
+.overskrift {
+  background-color:rgba(0, 0, 0, 0.418);
+  height: 250px;
+  margin-bottom: 90px;
+}
+
+h1 {
+  color:rgb(255, 255, 255);
+  font-style: italic;
+  font-size: 100px;
+  text-align: center;
+}
+
+h3 {
+  color: black;
+  font-size: 30px;
+  text-align: center;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.logo {
+  background-color: rgb(255, 255, 255);
+  margin-top: 50px;
+  background-size: cover;
+  margin-bottom: 60px;
+  overflow:hidden;
+}
+
+.hov {
+  width: auto;
+  height: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align:left;
+  background-color: rgb(255, 255, 255);
+  padding-top: 10px;
+  padding-left: 40px;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+}
+
+table, th, td {
+  border: 7px solid white;
+  border-collapse: collapse;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  column-width: auto;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+}
+th {
+  background-color: rgb(219, 40, 40);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+td {
+  background-color: rgb(206, 206, 206);
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(124, 124, 124);
+}
+
+.tabell-link {
+  background-color: rgb(206, 206, 206);
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(65, 78, 255);
+}
+
+.inf-h {
+  background-color: rgb(255, 255, 255);
+  font-size: 30px;
+  color: black;
+  padding-bottom: 30px;
+}
+
+.info {
+  background-color: white;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.h3 {
+  color: rgb(219, 40, 40);
+  font-size: 50px;
+  text-align: left;
+  font-family:Arial, Helvetica, sans-serif
+}
+
+.b-ov {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.u-ov {
+  color: black;
+  font-size: 30px;
+  text-align: left;
+  text-decoration: underline;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.tekst1 {
+  color:black;
+  font-size: 21px;
+  text-align: left;
+}
+
+.bun {
+  background-color: black;
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+p {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align:left;
+  color: rgb(160, 160, 160);
+  text-align: center;
+  text-decoration: none;
+}
+
+.link-tekst {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(98, 42, 143);
+  text-decoration: none;
+}
+
+.foto1 {
+  padding-left: 60px;
+}
+
+.foto2 {
+  padding-left: 80px;
+  padding-right: 60px;
+}
+
+                                                                                 
