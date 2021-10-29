@@ -1,0 +1,63 @@
+.innpakning {
+    width: 70%;
+    background-color: #404040;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; /*Bestemmer hvordan innholdet orinterer seg vannrett, dvs vi kan bryte rader*/
+}
+
+.topptekst {
+    flex-basis: 100%; /*Fyller bredden i innpakning helt*/
+    height: 120px;
+    background-color: #909090;
+    padding: 5px;
+    margin: 5px;
+    order: 1;
+}
+
+.meny {
+    flex-basis: 200px; /*Breddden på "boksen"*/
+    background-color: #329632;
+    padding: 5px;
+    margin: 5px;
+    order: 2;
+}
+
+.innhold {
+    background-color: #909090;
+    flex: 1; /*Bruker tilgjengelig bredde*/
+    order: 3;
+    padding: 5px;
+    margin: 5px;
+}
+
+.bunn {
+    flex-basis: 100%;
+    background-color: #909090;
+    padding: 5px;
+    margin: 5px;
+    order: 4;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul a {
+    display: block;
+    width: 120px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 2px;
+    color: #333333;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: "8cbe05";
+}
+
+ul a:hover {
+    background-color: #e7f1cc;
+}
